@@ -1,0 +1,152 @@
+<!Doctype html>
+<html>
+<body>
+<style>
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  background-image: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);
+  overflow: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*#nav {
+width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #2c8fb5;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 1px;
+}*/
+
+
+#nav {
+margin: 50px auto 0px;
+  text-align: center;
+  width: 30%;
+} 
+
+#nav li {
+display:block;
+position:relative;
+float:left;
+  width: 140px;
+  height: 65px;
+  line-height: 65px;
+  text-transform: uppercase;
+  background-color: #2c8fb5;
+  cursor: pointer;
+}
+#nav li a {
+display:block;
+padding:0;
+text-decoration:none;
+width:140px; /* this is the width of the menu items */
+height: 65px;
+line-height:65px; /* this is the hieght of the menu items */
+color:#ffffff; /* list item font color */
+}
+#nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+#nav li:hover {background:#226f8c;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+position:absolute;
+padding:0;
+left:0;
+display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul {
+display:block; /* shows sub-sublist on hover */
+margin-left:141px; /* this should be the same width as the parent list item */
+margin-top:-40px; /* aligns top of sub menu with top of list item */
+}
+</style>
+</head>
+<ul id="nav">
+
+<li><a href="#">Odd Sem</a>
+<ul>
+	<li><a href="#">3rd</a>
+		<ul>
+      <button onclick="parent.open('3rdsem.pdf')"><li><a href="# "> Syllabus</a></button>
+        <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+	<!--	<button onclick="parent.open('aa.html')"><li><a href="# "> M-III</a></button>
+			<button onclick="parent.open('aa.html')"><li><a href="# "> PLDC</a></button>
+				<button onclick="parent.open('aa.html')"><li><a href="# "> DEFM</a></button>
+          <button onclick="parent.open('aa.html')"><li><a href="# "> EIT</a></button>
+            <button onclick="parent.open('aa.html')"><li><a href="# "> DCOM</a></button> -->
+		</ul>
+		<li><a href="#">5th</a>
+		<ul>
+      <button onclick="parent.open('5thsem.pdf')"><li><a href="# "> Syllabus</a></button>
+        <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+		<!-- <li><a href="# "> SP</a>
+			<li><a href="# "> SE</a>
+				<li><a href="# "> CG</a>
+          <li><a href="# "> DAA</a>
+            <li><a href="# "> IEED</a>
+              <li><a href="# "> JAVA</a> -->
+		</ul>
+		<li><a href="#">7th</a>
+		<ul>
+      <button onclick="parent.open('7thsem.pdf')"><li><a href="# "> Syllabus</a></button>
+        <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+		<!--<li><a href="# "> DWM</a>
+			<li><a href="# "> CSS</a>
+				<li><a href="# "> AI</a>
+          <li><a href="# "> ELE-1</a>
+            <li><a href="# "> ELE-2</a> -->
+		</ul>
+	</ul>
+</li>
+
+<li><a href="#">Even Sem</a>
+<ul>
+<li><a href="#">4th</a>
+<ul>
+  <button onclick="parent.open('4thsem.pdf')"><li><a href="# "> Syllabus</a></button>
+    <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+<!-- <li><a href="#">DMGT</a>
+<li><a href="#">TOC</a>
+  <li><a href="# "> OOM</a>
+    <li><a href="# "> CAO</a>
+      <li><a href="# "> ADS</a> -->
+</ul>
+<li><a href="#">6TH</a>
+<ul>
+  <button onclick="parent.open('6thsem.pdf')"><li><a href="# "> Syllabus</a></button>
+    <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+<!-- <li><a href="#">CN</a>
+<li><a href="#">FE</a>
+  <li><a href="# "> DBMS</a>
+    <li><a href="# "> OS</a>
+      <li><a href="# "> IP</a> -->
+</ul>
+<li><a href="#">8TH</a>
+<ul>
+  <button onclick="parent.open('8thsem.pdf')"><li><a href="# "> Syllabus</a></button>
+    <button onclick="parent.open('')"><li><a href="# "> Timetable</a></button>
+<!-- <li><a href="#">DS</a>
+<li><a href="#">GAP</a>
+  <li><a href="# "> ELE-3</a>
+    <li><a href="# "> ELE-4</a> -->
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</body>
+</html> 
