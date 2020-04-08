@@ -12,4 +12,6 @@ In which after login it shows syllabus of given semesters and there respective t
 6. Import the sql file which is in the database folder.
 7. Congratulations.. now,you are good to go.
 
+Note: After clicking timetable button if timetable generator windows not appears then you can directly open main.py file that present in Automatic_timetable_generaor_ folder
+
 Thank you ... ^_^
